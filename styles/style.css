@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.cdnfonts.com/css/phenomena');
+
+@import url('https://db.onlinewebfonts.com/c/cc84650569fd07dac022c55b20c66e46?family=Futura+Bk+BT+Book');
+
+@font-face {
+    font-family: "Futura Bk BT Book";
+    src: url("https://db.onlinewebfonts.com/t/cc84650569fd07dac022c55b20c66e46.eot");
+    src: url("https://db.onlinewebfonts.com/t/cc84650569fd07dac022c55b20c66e46.eot?#iefix")format("embedded-opentype"),
+        url("https://db.onlinewebfonts.com/t/cc84650569fd07dac022c55b20c66e46.woff2")format("woff2"),
+        url("https://db.onlinewebfonts.com/t/cc84650569fd07dac022c55b20c66e46.woff")format("woff"),
+        url("https://db.onlinewebfonts.com/t/cc84650569fd07dac022c55b20c66e46.ttf")format("truetype"),
+        url("https://db.onlinewebfonts.com/t/cc84650569fd07dac022c55b20c66e46.svg#Futura Bk BT Book")format("svg");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo {
+    height: 30px;
+}
+
+nav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 75px;
+    background: #ffffff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+nav .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    max-width: 90%;
+    background: #ffffff;
+    margin: auto;
+}
+
+nav .navbar .logo a {
+    color: #fff;
+    font-size: 27px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+nav .navbar .menu {
+    display: flex;
+}
+
+.navbar .menu li {
+    list-style: none;
+    margin: 0 15px;
+}
+
+.navbar .menu li a {
+    color: #000000;
+    font-size: 17px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.button a {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: #fff;
+    background: #687eff;
+    padding: 7px 12px;
+    font-size: 18px;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.15);
+}
+
+.login a {
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color: #fff;
+    color: #000;
+    border: solid;
+    text-decoration: none;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.register a {
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color: #687eff;
+    color: white;
+    margin-left: -20px;
+    text-decoration: none;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+p {
+    text-align: justify;
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 50px;
+    background-color: #dce1ff;
+    padding-bottom: 40px;
+}
+
+.hero .title {
+    padding-top: 250px;
+    padding-left: 300px;
+}
+
+.hero .title h1 {
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.hero .title p {
+    margin-bottom: 40px;
+}
+
+.hero .title a {
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color: #687eff;
+    color: #fff;
+    text-decoration: none;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.hero .image img {
+    padding-right: 300px;
+    padding-top: 70px;
+    width: auto;
+    height: 700px;
+}
+
+.icon {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #ffdb1d;
+    padding: 50px 300px;
+}
+
+.iconCourse {
+    display: flex;
+}
+
+.iconCourse img {
+    margin-left: 100px;
+    width: 60px;
+    height: 50px;
+}
+
+.iconCourse ul {
+    margin-left: 30px;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+hr {
+    width: 110px;
+    height: 5px;
+    border: none;
+    background-color: #ffdb1d;
+    margin-bottom: 30px;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.main .image img {
+    padding-left: 300px;
+    margin-top: 100px;
+}
+
+.main .title {
+    padding-right: 300px;
+    padding-top: 250px;
+}
+
+.main .title h1 {
+    margin-bottom: 5px;
+}
+
+.main .title p {
+    margin-bottom: 50px;
+}
+
+.main .title a {
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color: #ffdb1d;
+    color: #fff;
+    text-decoration: none;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.main .title-bottom {
+    padding-left: 400px;
+    margin-top: 250px;
+    margin-right: 100px;
+}
+
+.main .title-bottom p {
+    margin-bottom: 50px;
+}
+
+.main .title-bottom a {
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color: #ffdb1d;
+    color: #fff;
+    text-decoration: none;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.main .image-bottom img {
+    padding-right: 50px;
+    padding-top: 100px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #687eff;
+    padding: 200px 300px;
+    margin-top: 300px;
+}
+
+.footer {
+    color: #fff;
+}
+
+.footer h1 {
+    font-family: 'Phenomena', sans-serif;
+}
+
+.footer p {
+    font-family: "Futura Bk BT Book";
+    font-size: 20px;
+}
+
+.footer .location {
+    padding: 0 300px;
+}
